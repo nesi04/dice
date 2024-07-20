@@ -1,0 +1,58 @@
+
+.container{
+    display: flex;
+    background-color: rgb(228, 180, 180);
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    height:300px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px rgb(135, 89, 89);
+
+}
+.p1{
+    font-size: 4em;
+    color: brown;
+    font-family: "Happy Monkey";
+    margin: 5px;
+}
+.input label{
+    font-size: 16px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inp1{
+    width: 30px;
+    padding: 0;
+    border-radius: 25%;
+    border: 2px solid brown;
+}
+.container button{
+    background-color: rgb(255, 180, 180);
+    border-radius: 15px;
+    border: 2px brown solid;
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.25s ease-in;
+}
+.container button:hover{
+    box-shadow: 0px 0px 2px brown;
+    background-color: rgb(179, 79, 79);
+
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.images img{
+    height: 100px;
+    width: 100px;
+}
